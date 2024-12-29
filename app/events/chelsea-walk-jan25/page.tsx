@@ -1,12 +1,13 @@
 import React from 'react';
-import SignupForm from '@/components/NewsletterSignup';
+import NewsletterSignup from '@/components/NewsletterSignup';
 import { MapPin, Calendar, Users } from 'lucide-react';
 
 const ChelseaWalk = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        <div className="text-center mb-16">
+    // Changed the padding-top to mt-24 for more space and added relative positioning
+    <div className="relative min-h-screen bg-gradient-to-b from-slate-50 to-white mt-24">
+      <div className="max-w-4xl mx-auto px-4">
+        <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
             Tickles Chelsea Walk
           </h1>
@@ -16,15 +17,15 @@ const ChelseaWalk = () => {
           
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="flex items-center justify-center space-x-2 text-gray-600">
-              <MapPin className="w-5 h-5 text-indigo-500" />
+              <MapPin className="w-5 h-5 text-rose-500" />
               <span>Chelsea, NYC</span>
             </div>
             <div className="flex items-center justify-center space-x-2 text-gray-600">
-              <Calendar className="w-5 h-5 text-indigo-500" />
+              <Calendar className="w-5 h-5 text-rose-500" />
               <span>Every Saturday</span>
             </div>
             <div className="flex items-center justify-center space-x-2 text-gray-600">
-              <Users className="w-5 h-5 text-indigo-500" />
+              <Users className="w-5 h-5 text-rose-500" />
               <span>Limited to 20 people</span>
             </div>
           </div>
@@ -34,7 +35,7 @@ const ChelseaWalk = () => {
               signupType="EVENTS"
               buttonText="Take part"
               description="Join us for a guided walk through Chelsea's most charming spots"
-              className="bg-white/50 p-6 rounded-x1"
+              className="bg-white/50 p-6 rounded-xl"
             />
           </div>
 

@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import { Send } from 'lucide-react'
-import { SIGNUP_TAGS } from '@/utils/kit'
 import type { SignupType } from '@/utils/kit'
 
 interface NewsletterSignupProps {
