@@ -13,7 +13,8 @@ const CentralParkEvent = () => {
             Tickles Central Park
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            Love blooms in natures heart&apos;
+            Love blooms in nature&apos;s heart
+          </p>
           
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="flex items-center justify-center space-x-2 text-gray-600 bg-white/80 rounded-full py-3 px-6 shadow-sm">
