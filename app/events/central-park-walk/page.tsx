@@ -13,8 +13,7 @@ const CentralParkEvent = () => {
             Tickles Central Park
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            Love blooms in nature's heart
-          </p>
+            Love blooms in natures heart&apos;
           
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="flex items-center justify-center space-x-2 text-gray-600 bg-white/80 rounded-full py-3 px-6 shadow-sm">
@@ -36,7 +35,7 @@ const CentralParkEvent = () => {
               Join Our Next Adventure
             </h3>
             <p className="text-gray-600 mb-8">
-              Experience the magic of connecting while exploring NYC's most iconic park.
+              Experience the magic of connecting while exploring NYC&apos;s most iconic park.
             </p>
             <a
               href="https://lu.ma/tickles-central-park"
@@ -54,8 +53,8 @@ const CentralParkEvent = () => {
               <div className="h-12 w-12 bg-rose-100 rounded-full flex items-center justify-center mb-4 mx-auto">
                 <span className="text-rose-500 text-2xl">🌳</span>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">Nature's Romance</h3>
-              <p className="text-gray-600">Experience meaningful connections in NYC's most beautiful setting</p>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800">Nature&apos;s Romance</h3>
+              <p className="text-gray-600">Experience meaningful connections in NYC&apos;s most beautiful setting</p>
             </div>
             <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-md transform hover:-translate-y-1 transition-transform">
               <div className="h-12 w-12 bg-rose-100 rounded-full flex items-center justify-center mb-4 mx-auto">
